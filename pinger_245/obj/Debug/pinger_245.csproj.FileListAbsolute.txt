@@ -1,0 +1,14 @@
+C:\Users\alexz\source\repos\pinger_245\pinger_245\bin\Debug\pinger_245.exe.config
+C:\Users\alexz\source\repos\pinger_245\pinger_245\bin\Debug\pinger_245.exe
+C:\Users\alexz\source\repos\pinger_245\pinger_245\bin\Debug\pinger_245.pdb
+C:\Users\alexz\source\repos\pinger_245\pinger_245\obj\Debug\pinger_245.Pinger_245.resources
+C:\Users\alexz\source\repos\pinger_245\pinger_245\obj\Debug\pinger_245.ProjectInstaller.resources
+C:\Users\alexz\source\repos\pinger_245\pinger_245\obj\Debug\pinger_245.csproj.GenerateResource.cache
+C:\Users\alexz\source\repos\pinger_245\pinger_245\obj\Debug\pinger_245.csproj.CoreCompileInputs.cache
+C:\Users\alexz\source\repos\pinger_245\pinger_245\obj\Debug\pinger_245.exe
+C:\Users\alexz\source\repos\pinger_245\pinger_245\obj\Debug\pinger_245.pdb
+C:\Users\alexz\source\repos\pinger_245\pinger_245\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexz\source\repos\pinger_245\pinger_245\bin\Debug\Zabbix_Sender.dll
+C:\Users\alexz\source\repos\pinger_245\pinger_245\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alexz\source\repos\pinger_245\pinger_245\bin\Debug\Zabbix_Sender.pdb
+C:\Users\alexz\source\repos\pinger_245\pinger_245\obj\Debug\pinger_245.csproj.CopyComplete

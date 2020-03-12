@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<KR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <vsc_name>VSC440119014</vsc_name>
+  <kr_name>R-26-VSC440119014-KR-245</kr_name>
+  <kr_ip>10.245.0.2</kr_ip>
+  <zabbix_ip>192.168.2.15</zabbix_ip>
+  <timeout>40</timeout>
+</KR>
