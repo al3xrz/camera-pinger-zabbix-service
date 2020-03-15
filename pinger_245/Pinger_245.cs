@@ -36,7 +36,7 @@ namespace pinger_245
 
             kr = new KR();
             kr = kr.GetKR();
-            
+
             ps = new PingerSender();
             ps.kr = kr;
 
@@ -48,13 +48,15 @@ namespace pinger_245
                 ps.OnPing += eventLog1.WriteEntry;
                 ps.OnSend += eventLog1.WriteEntry;
             }
-            
+
 
 
         }
 
         protected override void OnStart(string[] args)
         {
+            eventLog1.WriteEntry(kr.kr_name);
+
             PingerThread = new Thread(new ThreadStart(ps.PingSend));
             PingerThread.Start();
         }

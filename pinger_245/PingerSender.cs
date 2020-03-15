@@ -20,16 +20,17 @@ namespace pinger_245
 
         public void PingSend()
         {
-
-            Ping ping = new System.Net.NetworkInformation.Ping();
-
+            Ping ping = new Ping();
             PingReply pingReply = null;
+
             while (true)
             {
                 string result_text = "";
                 string zabbix_response = "";
                 try
                 {
+                    
+
                     pingReply = ping.Send(kr.kr_ip);
                     if (pingReply.Status != IPStatus.Success)
                     {
@@ -63,10 +64,11 @@ namespace pinger_245
 
                     }
                 }
-                catch (PingException)
+                catch (PingException pe)
                 {
+                    
+                    result_text = $"{kr.kr_name} {kr.kr_ip} error during ping. {pe}";
                     if (OnNoPing != null) { OnNoPing(result_text); }
-                    result_text = $"{kr.kr_name} {kr.kr_ip} {pingReply.Status.ToString()}";
                     try
                     {
                         ZS_Request r = new ZS_Request($"{kr.kr_name}", "ping", "0");
@@ -75,7 +77,7 @@ namespace pinger_245
                     }
                     catch (Exception ex)
                     {
-                        if (OnError != null) OnError(ex.Message);
+                        OnError?.Invoke(ex.Message);
                     }
                 }
                 Thread.Sleep(kr.timeout * 1000);
